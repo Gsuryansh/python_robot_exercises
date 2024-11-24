@@ -96,7 +96,7 @@ This project read the bs_log file and check for the passed and failed connection
 1. Clone the repository:
    ```sh
    git clone https://github.com/Gsuryansh/python_robot_exercises.git
-   cd python_robot_exercises/robot-api-test-framework
+   cd python_robot_exercises/success_rate_robot_test
    
 
 2. Build the Docker image:  
