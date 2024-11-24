@@ -27,7 +27,7 @@ robot-api-test-framwork/ ├── config/ │ └── config.json ├── l
 
 1. Clone the repository:
    ```sh
-   git clone <repository_url>
+   git clone https://github.com/Gsuryansh/python_robot_exercises.git
    cd project_root
    
 
