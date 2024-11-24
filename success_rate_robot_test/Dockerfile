@@ -17,4 +17,4 @@ WORKDIR /app
 COPY . /app
 
 # Command to run the Robot Framework tests
-CMD ["sh", "-c",  "robot --outputdir /logs --log successratelog_$(date +%Y%m%d%H%M%S).html --variable config/bs_log.txt --variable success_rate:10 success_rate_tests/success_rate.robot"]
+CMD ["sh", "-c",  "robot --outputdir /logs --log successratelog_$(date +%Y%m%d%H%M%S).html --variable log_file/bs_log.txt --variable success_rate:10 success_rate_tests/success_rate.robot"]
