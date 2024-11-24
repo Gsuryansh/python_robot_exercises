@@ -1,5 +1,24 @@
 # python_robot_exercises
 
+# 1. Python exercise: 
+
+success_rate.py will read a log file bs-log.txt and give the overall success rate and hourly success rate for the RRC Connection Request.
+
+## setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Gsuryansh/python_robot_exercises.git
+   cd python_robot_exercises
+
+2. python3 success_rate.py
+
+## Running test
+It will print the overall success rate and hourly success rate for the RRC Connection Request.
+
+
+# 2. Robot framework exercise
+
+
 # NASA API Test Suite
 
 This project contains a test suite for the NASA API using Robot Framework. The tests are designed to verify various aspects of the NASA API and ensure its functionality. The project is containerized using Docker to ensure consistency and ease of use.
