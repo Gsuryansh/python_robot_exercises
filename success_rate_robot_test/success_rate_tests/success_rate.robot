@@ -2,7 +2,7 @@
 Library     libraries/calculate_success_rate.py
 
 *** Variables ***
-${log_file_path}    config/bs_log.txt
+${log_file_path}    log_file/bs_log.txt
 ${success_rate}    30
 
 *** Test Cases ***
