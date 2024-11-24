@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  robot-tests:
+    build: .
+    volumes:
+      - ./logs:/logs
+    environment:
+      - PYTHONUNBUFFERED=1
