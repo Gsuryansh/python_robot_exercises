@@ -3,7 +3,7 @@ Library     libraries/calculate_success_rate.py
 
 *** Variables ***
 ${log_file_path}    config/bs_log.txt
-${success_rate}    10
+${success_rate}    30
 
 *** Test Cases ***
 Success Rate Test
