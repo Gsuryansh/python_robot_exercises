@@ -2,7 +2,7 @@
 FROM python:3.9-slim
 
 # Set the PYTHONPATH environment variable
-ENV PYTHONPATH=/app:/robot-api-test-framework/libraries:/robot-api-test-framework/keywords
+ENV PYTHONPATH=/app:/success_rate_robot_test/libraries:/success_rate_robot_test/keywords
 
 # Copy the requirements file into the container
 COPY requirements.txt ./
