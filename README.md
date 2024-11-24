@@ -5,7 +5,7 @@
 This project contains a test suite for the NASA API using Robot Framework. The tests are designed to verify various aspects of the NASA API and ensure its functionality. The project is containerized using Docker to ensure consistency and ease of use.
 
 ## Project Structure
-project_root/ ├── config/ │ └── config.json ├── libraries/ │ └── nasa_api_library.py ├── keywords/ │ └── NasaApiKeywords.robot ├── tests/ │ └── NasaApiTests.robot ├── resources/ │ └── resource_gnf.robot ├── logs/ │ └── log.txt ├── Dockerfile ├── docker-compose.yml ├── requirements.txt └── README.md
+robot-api-test-framwork/ ├── config/ │ └── config.json ├── libraries/ │ └── nasa_api_library.py ├── keywords/ │ └── NasaApiKeywords.robot ├── tests/ │ └── NasaApiTests.robot ├── resources/ │ └── resource_gnf.robot ├── logs/ │ └── log.txt ├── Dockerfile ├── docker-compose.yml ├── requirements.txt └── README.md
 ## Files and Directories
 
 - `config/config.json`: Configuration file containing the base URL for the NASA API.
