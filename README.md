@@ -107,7 +107,7 @@ docker-compose up
 
 ## Running Tests
 
-The tests are run inside a Docker container. The logs are saved in the logs directory on the host machine. Each test run generates a new log file with a unique name based on the current date and time.  
+The tests are run inside a Docker container. The logs are saved in the logs directory on the host machine. Each test run generates a new log file with a unique name based on the current date and time. Robot file accept 2 argument path of log file and success_rate if not pass at run time default value will be set which is present in test file 
 
 
 
