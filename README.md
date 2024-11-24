@@ -28,7 +28,7 @@ robot-api-test-framwork/ ├── config/ │ └── config.json ├── l
 1. Clone the repository:
    ```sh
    git clone https://github.com/Gsuryansh/python_robot_exercises.git
-   cd project_root
+   cd python_robot_exercises/robot-api-test-framework
    
 
 2. Build the Docker image:  
